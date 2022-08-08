@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Elite&display=swap');
+
+/* font-family: 'Exo', sans-serif;
+font-family: 'Special Elite', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Special Elite', cursive;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Exo', sans-serif;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+header nav {
+    padding: 2% 0;
+    background: #fff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 2%;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#title {
+    height: 100vh;
+    background: url(../img/bg.jpeg) center/cover no-repeat;
+}
+
+#title img {
+    margin-top: 20%;
+}
+
+/* -------------------------------------------- */
+
+#hello {
+    height: 110vh;
+    background: url(../img/bridge_1.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+#hello article {
+    height: 60vh;
+    background: url(../img/beans_icon.png) #fff center/cover no-repeat;
+}
+
+#hello article div {
+    width: 40%;
+    padding-top: 7%;
+    padding-left: 8%;
+}
+
+#hello article div h1 {
+    margin-bottom: 2%;
+    font-size: 4rem;
+}
+
+#hello article div p {
+    margin-bottom: 2%;
+}
+
+/* -------------------------------------------- */
+
+
+#menu {
+    text-align: center;
+    padding: 3% 0;
+    background: url(../img/cake_icon.png) #fff left/contain no-repeat;
+}
+
+#menu img {
+    width: 5%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#menu>h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1%;
+}
+
+#menu div {
+    margin: 1% auto;
+    padding: 1%;
+    width: 30%;
+    border: 1px solid #000;
+}
+
+#menu article {
+    margin: 2% 0;
+}
+
+#menu article h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1%;
+}
+
+#menu article h3 {
+    margin-bottom: 1%;
+}
+
+#story {
+    background: url(../img/bridge_2.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    padding-top: 30%;
+}
+
+#story article {
+    background: #fff;
+    text-align: center;
+    padding: 7% 0;
+}
+
+#story article div {
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    margin-right: 5%;
+}
+
+#story article div h2 {
+    margin-bottom: 2%;
+    font-size: 2.2rem;
+}
+
+#story article div p:nth-of-type(1) {
+    margin-bottom: 3%;
+}
+
+#story article img {
+    width: 22%;
+    display: inline-block;
+}
+
+#catering {
+    background: url(../img/bridge_3.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    padding-top: 25%;
+}
+
+#catering article {
+    background: url(../img/pie_icon.png) #fff right/contain no-repeat;
+    text-align: center;
+    padding: 7% 0;
+}
+
+#catering article img,
+#cakes article img {
+    width: 25%;
+}
+
+#catering article div,
+#cakes article div {
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 5%;
+}
+
+#catering article div h2,
+#cakes article div h2 {
+    margin-bottom: 2%;
+    font-size: 2.2rem;
+}
+
+#catering article div p,
+#cakes article div p {
+    margin-bottom: 3%;
+}
+
+#catering article div a,
+#cakes article div a {
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 1%;
+    color: #000;
+    font-size: 1.4rem;
+}
+
+#catering article div a:hover,
+#cakes article div a:hover {
+    text-decoration: underline;
+}
+
+#cakes {
+    background: url(../img/bridge_4.jpeg) center/cover no-repeat;
+    background-attachment: fixed;
+    padding-top: 25%;
+}
+
+#cakes article {
+    background: url(../img/muffin_icon.png) #fff left/contain no-repeat;
+    text-align: center;
+    padding: 7% 0;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2% 0;
+}
+
+footer h2 {
+    font-size: 1.8rem;
+    margin-bottom: .4rem;
+}
+
+footer ul img {
+    width: 2%;
+}
+
+footer img {
+    width: 8%;
+}
